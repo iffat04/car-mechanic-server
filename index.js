@@ -87,7 +87,7 @@ run().catch(console.dir);
 
 //4.
 app.get('/',(req,res)=>{
-    res.send('connected');
+    res.send('connected with server');
 })
 
 //5.
