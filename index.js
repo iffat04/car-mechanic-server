@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 //3.
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 
 //pass:svwRrBcmTesHnZnH
